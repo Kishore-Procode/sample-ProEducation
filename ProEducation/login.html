@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="boss1"style=" width: 25%; height: 55%;">
+        <h1 class="login" style="text-align: center;">Login</h1>
+        <h3>Email</h3>
+        <input placeholder="Email" type="text">
+        <h3>Password</h3>
+        <input placeholder="Password" type="password">
+        <button class="login-button"><h4>Login</h1></button>
+        <p class="para1"><a href="">Forgot password?</a></p>
+        <p class="para2"><a href="">Create Account</a></p>
+    </div>
+
+
+
+    
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        a{
+            text-decoration:none ;
+            color: inherit;
+        }
+        .boss1{
+            color: white;
+            border-radius: 10px;            
+            position: absolute;
+            left: 37.5%;
+            right: 37.5%;
+            bottom: 20%;
+            top: 20%;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);         
+            opacity: 10px;
+        }
+        .login{
+            border: none;
+            margin-top: 10%;
+        }
+        h3{
+            margin-top: 20px;
+        }
+        h3,input{
+            margin-left: 10%;
+            
+        }
+        input{
+            padding: 3%;
+            width: 73.5%;
+            margin-top: 5px;
+            border: none;
+        }
+        .login-button{
+            color: white;
+            font-size: 19px;
+            background-color: rgb(31, 121, 230);
+            margin-left: 10%;
+            border: none;
+            /* border: solid rgb(255, 255, 255) 1px; */
+            border-radius: 7px;
+            padding: 3%;
+            width: 80%;
+            margin-top: 20px;
+        }
+        p{
+            display: inline;
+            margin-left: 14%;
+            position: relative;
+            top: 20px;
+        }
+        body{
+            background-repeat:no-repeat;
+            /* object-fit: fill; */
+            background-size: cover;
+            background-image: url("file:///C:/Users/kisho/Downloads/autum.jpg");
+        }
+        input:focus{
+            outline: none;
+        }
+        input{
+            background-color: inherit;
+            border-bottom:solid black 1px;
+        }
+
+        input::placeholder{
+            color: #000;
+        }
+        /* input:hover{
+            transition: ;
+        } */
+        .boss1 textarea::placeholder{
+        color: #000;
+        }
+        /* .para2{
+            display:inline ;
+            padding-top: 20%;
+            margin-left: 14%;
+        } */
+        
+        
+    </style>
+    
+</body>
+</html>
